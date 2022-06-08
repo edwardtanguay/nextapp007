@@ -7,7 +7,7 @@ export default function Home() {
                 <title>Tech Resource Site</title>
                 <meta
                     name="description"
-                    content="A great site for tech information."
+                    content="A very great site for tech information."
                 />
                 <link rel="icon" href="/globe.ico" />
             </Head>

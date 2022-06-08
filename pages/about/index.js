@@ -1,7 +1,7 @@
+import { DynamicHead } from '../../components/DynamicHead';
 import { SiteHeader } from '../../components/SiteHeader';
 import { Nav } from '../../components/Nav';
 import { NavLink } from '../../components/NavLink';
-import { DynamicHead } from '../../components/DynamicHead';
 
 const About = () => {
     return (

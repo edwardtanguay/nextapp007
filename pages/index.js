@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element */
 import Head from 'next/head';
 import { Nav } from '../components/Nav';
 import { SiteHeader } from '../components/SiteHeader';
@@ -10,7 +12,7 @@ export default function Home() {
             <SiteHeader />
             <Nav />
             <p>Welcome to this site.</p>
-            <p className="highlight">More changes coming soon...</p>
+            <img src="images/screenWithCode.jpg" />
         </div>
     );
 }

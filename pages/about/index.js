@@ -20,9 +20,6 @@ const About = () => {
                 <li>
                     <NavLink href="about/coming-soon">Coming Soon</NavLink>
                 </li>
-                <li>
-                    <NavLink href="about/nnn">Other page</NavLink>
-                </li>
             </ul>
         </>
     );

@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import { Nav } from '../components/Nav';
+import { SiteHeader} from '../components/SiteHeader';
 
 export default function Home() {
     return (
@@ -11,7 +13,8 @@ export default function Home() {
                 />
                 <link rel="icon" href="/globe.ico" />
             </Head>
-            <h1>Tech Resource Site</h1>
+            <SiteHeader/>
+            <Nav/>
             <p>Welcome to this site.</p>
             <p className="highlight">More changes coming soon...</p>
         </div>

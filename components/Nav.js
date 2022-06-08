@@ -1,11 +1,11 @@
-import Link from 'next/link';
+import { NavLink } from './NavLink';
 
 export const Nav = () => {
     return (
         <nav>
-            <span><Link href="/">Welcome</Link></span>
+            <span><NavLink exact href="/">Welcome</NavLink></span>
             <span className="separator">|</span>
-            <span><Link href="/code">Code</Link></span>
+            <span><NavLink href="/code">Code</NavLink></span>
         </nav>
     );
 };
